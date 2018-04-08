@@ -2,7 +2,7 @@
 The data are latest update from <a href="http://mfdonline.bps.go.id/" target="_blank">Central Agency on Statistics (Badan Pusat Statistic) - MFD and MBS Update</a>.
 
 ## How to use
-1. Create & Install Laravel Project [https://laravel.com/docs/5.6#installation],
+1. Create & Install Laravel Project, documentation <a href="https://laravel.com/docs/5.6#installation" target="_blank">here</a>,
 2. Copy the file to <code>Laravel</code> Installation directories,
 3. Open <code>database/migration/*create_area_codes_table</code> file and modify:
 <pre>
@@ -24,7 +24,7 @@ The data are latest update from <a href="http://mfdonline.bps.go.id/" target="_b
 
 ## License
 * The scripts are license under: [MIT](license.md).
-* The source data is attributed to <a href="" target="_blank">**Badan Pusat Statistik (BPS) Indonesia**</a>.
+* The source data is attributed to <a href="http://bps.go.id" target="_blank">**Badan Pusat Statistik (BPS) Indonesia**</a>.
 
 ## Contributing
 Your contributions are **Great Help** for others, come:
