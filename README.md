@@ -22,6 +22,11 @@ The data are latest update from <a href="http://mfdonline.bps.go.id/" target="_b
 <code><strong>--tableClass</strong></code> - PHP Namespace of your table.<br>
 <code><strong>--fresh</strong></code> - Truncate (delete all data) from table before running the scripts
 
+## Database Fields
+Varchar(10)  <code><strong>code</strong></code> - primary<br>
+Varchar(255) <code><strong>name</strong></code><br>
+Varchar(10)  <code><strong>parent_code</strong></code>
+
 ## License
 * The scripts are license under: [MIT](license.md).
 * The source data is attributed to <a href="http://bps.go.id" target="_blank">**Badan Pusat Statistik (BPS) Indonesia**</a>.
