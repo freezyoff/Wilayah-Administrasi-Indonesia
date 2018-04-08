@@ -2,25 +2,25 @@
 The data are latest update from <a href="http://mfdonline.bps.go.id/" target="_blank">Central Agency on Statistics (Badan Pusat Statistic) - MFD and MBS Update</a>.
 
 ## How to use
-- Create & Install Laravel Project [https://laravel.com/docs/5.6#installation],
-- Copy the file to <code>Laravel</code> Installation directories,
-- Open <code>database/migration/*create_area_codes_table</code> file and modify:
+1. Create & Install Laravel Project [https://laravel.com/docs/5.6#installation],
+2. Copy the file to <code>Laravel</code> Installation directories,
+3. Open <code>database/migration/*create_area_codes_table</code> file and modify:
 <pre>
 	// modify to your own connection name, see config/app.php
-	protected $connection = "";			--> modify to your connection name
+	protected $connection = "";	--> modify to your connection name
 	
 	// modify to your own table name
-	protected $table = "area_codes";	--> modify to your table name
+	protected $table = "";		--> modify to your table name
 </pre>
-- Run <code>Laravel migration</code> to create the <code>table</code>
-- Finally, run <code>Laravel artisan command</code>:<br>
+4. Run <code>Laravel migration</code> to create the <code>table</code>
+5. Finally, run <code>Laravel artisan command</code>:<br>
 <pre>
 	php artisan freezy:fetch_mfdonline
 </pre>
 
 ## Command Options
-* <code><strong>--tableClass</strong></code> - PHP Namespace of your table
-* <code><strong>--fresh</strong></code> - Truncate (delete all data) from table before running the scripts
+<code><strong>--tableClass</strong></code> - PHP Namespace of your table.<br>
+<code><strong>--fresh</strong></code> - Truncate (delete all data) from table before running the scripts
 
 ## License
 * The scripts are license under: [MIT](license.md).
