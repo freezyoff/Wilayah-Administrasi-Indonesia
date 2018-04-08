@@ -5,7 +5,10 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
 class CreateAreaCodesTable extends Migration{
+	// modify to your own connection name, see config/app.php
 	protected $connection = 'jn_core';
+	
+	// modify to your own table name
 	protected $table = "area_codes";
 	
 	protected function schema(){
@@ -38,6 +41,6 @@ class CreateAreaCodesTable extends Migration{
     public function down()
     {
 		//don't drop this table. too much data
-        //$this->schema()->dropIfExists($this->table);
+        $this->schema()->dropIfExists($this->table);
     }
 }
